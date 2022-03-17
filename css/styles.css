@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+/** STRUKTUR UND LAYOUT **********************/
+
+body {
+    color: black;
+    background-color: #9f9f9f;
+    font-family: "Trebuchet MS" , sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+div#wrapper{
+    width: 1000px;
+    background-color: #fff;
+    border: 6px solid black;
+    margin: 30px auto;
+    padding: 35px 45px 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+div#buttons{
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+input#start{
+    width: 100px;
+    padding: 5px;
+}
+
+
+#memoryField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/** MEMORY KARTEN ****************************/
+
+.card{
+    background-image: url("../imgs/front1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding: 0;
+    margin: 0;
+    border: 8px solid white;
+}
+
+
+.cardHover{
+    background-image: url("../imgs/front2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card img{
+    padding: 0;
+    margin: 0;
+    outline: 10px solid white;
+}
+
+
+.found{
+    background-image: unset;
+    background-color: #aaaaaa;
+}
+
+
+
+
+/** SCHRIFTEN, FARBEN, RAHMEN ****************/
+
+h1{
+    font-family: "Trebuchet MS" , sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+label, input{
+    font-family: "Trebuchet MS" , sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+input{
+    border: 3px solid black;
+    border-radius: 0;
+    background-color: white;
+    padding: 3px 8px;
+}
+
+
+input[type=button]:hover{
+    background-color: black;
+    color: #fff;
+}

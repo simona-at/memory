@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Memory (Simona Ascher)</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div id="wrapper">
+        <h1>Memory</h1>
+
+        <!-- Buttons für die Schwierigkeitsstufe -->
+        <div id="buttons">
+            <div>
+                <input type="radio" name="schwierigkeit" id="leicht" value="leicht">
+                <label for="leicht">4x4</label>
+            </div>
+            <div>
+                <input type="radio" name="schwierigkeit" id="mittel" value="mittel">
+                <label for="mittel">6x4</label>
+            </div>
+            <div>
+                <input type="radio" name="schwierigkeit" id="schwer" value="schwer">
+                <label for="schwer">6x6</label>
+            </div>
+            <div>
+                <input  id="start" type="button" value="Start"/>
+            </div>
+        </div>
+
+        <!-- Memory Feld -->
+        <div id="memoryField"></div>
+    </div>
+
+    <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
